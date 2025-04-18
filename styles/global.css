@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* VARIÁVEIS DE PALETA DE CORES */
+    --background-color: #242424;
+
+    --font-color: #FFFFFF;
+
+    /* VARIÁVEIS DE TIPOS DE FONTES */
+    --font-family-1: 'Anton', Georgia, serif;
+    --font-family-2: 'Lobster', monospace, serif;
+}
+
+body {
+    font-family: var(--font-family-1);
+
+    color: var(--font-color);
+    background-color: var(--background-color)
+}
