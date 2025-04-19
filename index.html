@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="styles/footer.css">
         <link rel="stylesheet" type="text/css" href="styles/layout.css">
         <link rel="stylesheet" type="text/css" href="styles/list.css">
+        <link rel="stylesheet" type="text/css" href="styles/responsive.css">
     </head>
 <body class="container">
     <!-- HEADER -->
@@ -16,12 +17,13 @@
         <h1>
             <a href="index.html" title="GTA Liveries - By DJ"> GTA Liveries </a>
         </h1>
-        <nav>
+        <nav class="nav" id="nav">
             <a href="index.html" title="Home">Home</a>
             <a href="military.html" title="Militares">Militares</a>
             <a href="others.html" title="Outros">Outros</a>
         </nav>
-    </header>
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </header>s
 
     <main class="content">
         <article>
@@ -41,6 +43,11 @@
     </footer>
 
     <script>
+        // FUNCIONALIDADE DO MENU PARA DISPOSITIVOS MOVEIS
+        document.getElementById("menuToggle").addEventListener("click", function () {
+            document.getElementById("nav").classList.toggle("show");
+        });
+
         // DADOS DOS VEÍCULOS
         const vehicleData = {
             "Banshee GTS": {
