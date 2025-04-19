@@ -1,10 +1,43 @@
 /* CONTAINER */
 .container {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     font-family: var(--font-family-1);
 
     padding: calc(var(--header-height) + 1em) 2em 2em 2em;
     width: 100%;
     min-height: 100vh;
+    gap: 1em;
+}
+.content section {
+    display: flex;
+
+    width: 100%;
+}
+.content article {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-1);
+
+    width: 100%;
+    padding: 0.6em 1em;
+    border-radius: 8px;
+
+    color: var(--font-color-2);
+    border: 2px solid var(--shadows-color);
+}
+.content article h2 {
+    font-size: 1.6em;
+}
+.content article p {
+    font-size: 1.2em;
 }

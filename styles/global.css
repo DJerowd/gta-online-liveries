@@ -8,13 +8,19 @@
 
 :root {
     /* VARIÁVEIS DE PALETA DE CORES */
-    --header-color: #000000;
-    --footer-color: #000000;
+    --header-color: #0F0F0F;
+    --footer-color: #0F0F0F;
 
-    --background-color: #242424;
+    --primary-color: #FF00CC;
+    --secondary-color: #00FFFF;
 
+    --background-color: #000000;
+    --background-color-2: #FFFFFF22;
+    
     --font-color: #FFFFFF;
+    --font-color-2: #B0B0B0;
 
+    --shadows-color: #FFFFFF11;
     --box-shadow-color: #000000;
 
     /* VARIÁVEIS DE TIPOS DE FONTES */
