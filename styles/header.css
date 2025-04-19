@@ -62,7 +62,7 @@ header .nav a:active {
 }
 
 /* MENU MOBILE */
-.menu-toggle {
+header .menu-toggle {
     display: none;
     cursor: pointer;
     font-size: 2rem;
