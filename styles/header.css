@@ -1,0 +1,32 @@
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    font-family: var(--font-family-1);
+    z-index: 1;
+
+    top: 0;
+    width: 100%;
+    height: var(--header-height);
+    padding: 0 2vw;
+
+    color: var(--font-color);
+    background-color: var(--header-color);
+    box-shadow: 0 2px 4px var(--box-shadow-color);
+}
+
+/* TITULO */
+header h1 {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    font-size: 2.0em;
+}
+header h1 a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+header h1:hover {
+    cursor: pointer;
+}

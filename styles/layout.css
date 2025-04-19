@@ -1,0 +1,10 @@
+/* CONTAINER */
+.container {
+    display: flex;
+    align-items: flex-start;
+    font-family: var(--font-family-1);
+
+    padding: calc(var(--header-height) + 1em) 2em 2em 2em;
+    width: 100%;
+    min-height: 100vh;
+}

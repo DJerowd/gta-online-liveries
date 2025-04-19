@@ -8,13 +8,21 @@
 
 :root {
     /* VARIÁVEIS DE PALETA DE CORES */
+    --header-color: #000000;
+    --footer-color: #000000;
+
     --background-color: #242424;
 
     --font-color: #FFFFFF;
 
+    --box-shadow-color: #000000;
+
     /* VARIÁVEIS DE TIPOS DE FONTES */
     --font-family-1: 'Anton', Georgia, serif;
     --font-family-2: 'Lobster', monospace, serif;
+
+    /* VARIÁVEIS DE FORMATAÇÂO DO HEADER */
+    --header-height: 64px;
 }
 
 body {
