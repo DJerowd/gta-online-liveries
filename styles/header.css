@@ -1,7 +1,9 @@
 /* HEADER */
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    text-align: center;
     position: fixed;
     font-family: var(--font-family-1);
     z-index: 1;
@@ -9,11 +11,11 @@ header {
     top: 0;
     width: 100%;
     height: var(--header-height);
-    padding: 0 2vw;
+    padding: 0 4vw;
 
     color: var(--font-color);
     background-color: var(--header-color);
-    box-shadow: 0 2px 4px var(--box-shadow-color);
+    box-shadow: 0 1px 2px var(--box-shadow-color);
 }
 
 /* TITULO */
@@ -22,6 +24,7 @@ header h1 {
     justify-content: baseline;
     align-items: center;
     font-size: 2.0em;
+    transition: all 0.6s ease-in-out;
 }
 header h1 a {
     text-decoration: none;
@@ -29,4 +32,31 @@ header h1 a {
 }
 header h1:hover {
     cursor: pointer;
+}
+
+/* ITEM DE NAVEGAÇÂO */
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family-2);
+
+    gap: 1em;
+}
+header nav a {
+    transition: all 0.4s;
+    text-decoration: none;
+    font-size: 1.4em;
+
+    color: var(--font-color);
+}
+header nav a:hover {
+    scale: 1.1;
+    color: var(--secondary-color);
+    text-shadow: 0 0 4px currentColor;
+}
+header nav a:active {
+    scale: 0.9;
+    color: var(--primary-color);
 }
