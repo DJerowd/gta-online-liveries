@@ -9,7 +9,7 @@
 
 :root {
     /* VARIÁVEIS DE PALETA DE CORES */
-    --header-color: #74B0C8;
+    --header-color: #0F0F0F;
     --footer-color: #0F0F0F;
 
     --primary-color: #FF00CC;
@@ -31,6 +31,24 @@
 
     /* VARIÁVEIS DE FORMATAÇÂO DO HEADER */
     --header-height: 96px;
+}
+
+/* TEMA CLARO */
+@media (prefers-color-scheme: light) {
+  :root {
+    /* VARIÁVEIS DE PALETA DE CORES */
+    --header-color: #E6E7EB;
+    --footer-color: #E6E7EB;
+
+    --background-color: #FFFFFF;
+    --background-color-2: #E6E7EB;
+
+    --font-color: #000000;
+    --font-color-2: #555555 ;
+
+    --shadows-color: #00000011;
+    --box-shadow-color: #00000055;
+  }
 }
 
 body {
