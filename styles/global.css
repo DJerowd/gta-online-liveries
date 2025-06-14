@@ -2,58 +2,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    /* VARIÁVEIS DE PALETA DE CORES */
-    --header-color: #0F0F0F;
-    --footer-color: #0F0F0F;
+  color-scheme: light dark;
+  
+  /* VARIÁVEIS DE PALETA DE CORES */
+  --header-color: light-dark(#E6E7EB, #0F0F0F);
+  --footer-color: light-dark(#E6E7EB, #0F0F0F);
 
-    --primary-color: #FF00CC;
-    --secondary-color: #00FFFF;
+  --primary-color: light-dark(#FCAF17, #FF00CC);
+  --secondary-color: light-dark(#00AAEE, #00FFFF);
 
-    --background-color: #000000;
-    --background-color-2: #FFFFFF22;
-    
-    --font-color: #FFFFFF;
-    --font-color-2: #B0B0B0;
+  --background-color: light-dark(#FFFFFF, #000000);
+  --background-color-2: light-dark(#E6E7EB, #FFFFFF22);
 
-    --shadows-color: #FFFFFF11;
-    --box-shadow-color: #FFFFFF55;
+  --font-color: light-dark(#000000, #FFFFFF);
+  --font-color-2: light-dark(#555555, #B0B0B0);
 
-    /* VARIÁVEIS DE TIPOS DE FONTES */
-    --font-family-1: 'Anton', Georgia, serif;
-    --font-family-2: 'Lobster', monospace, serif;
-    --font-family-3: 'Noto Sans', monospace, serif;
+  --shadows-color: light-dark(#00000011, #FFFFFF11);
+  --box-shadow-color: light-dark(#00000055, #FFFFFF55);
 
-    /* VARIÁVEIS DE FORMATAÇÂO DO HEADER */
-    --header-height: 96px;
-}
+  /* VARIÁVEIS DE TIPOS DE FONTES */
+  --font-family-1: 'Anton', Georgia, serif;
+  --font-family-2: 'Lobster', monospace, serif;
+  --font-family-3: 'Noto Sans', monospace, serif;
 
-/* TEMA CLARO */
-@media (prefers-color-scheme: light) {
-  :root {
-    /* VARIÁVEIS DE PALETA DE CORES */
-    --header-color: #E6E7EB;
-    --footer-color: #E6E7EB;
-
-    --background-color: #FFFFFF;
-    --background-color-2: #E6E7EB;
-
-    --font-color: #000000;
-    --font-color-2: #555555 ;
-
-    --shadows-color: #00000011;
-    --box-shadow-color: #00000055;
-  }
+  /* VARIÁVEIS DE FORMATAÇÂO */
+  --header-height: 64px;
+  --article-max-width: 800px;
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.4rem;
+  --font-size-large: 2.0rem;
 }
 
 body {
-    font-family: var(--font-family-1);
-
-    color: var(--font-color);
-    background-color: var(--background-color)
+  font: normal normal 10px var(--font-family-1);
+  color: var(--font-color);
+  background-color: var(--background-color)
 }

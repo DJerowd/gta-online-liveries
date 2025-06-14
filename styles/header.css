@@ -14,9 +14,7 @@ header {
     height: var(--header-height);
     padding: 0 4vw;
 
-    color: var(--font-color);
-    background-color: var(--header-color);
-    background: url(../assets/header-background.jpg) no-repeat top;
+    background: var(--font-color) url(../assets/header-background.jpg) no-repeat center top;
     background-size: cover;
     box-shadow: 0 1px 2px var(--box-shadow-color);
 }
@@ -26,7 +24,7 @@ header h1 {
     display: flex;
     justify-content: baseline;
     align-items: center;
-    font-size: 2.0rem;
+    font-size: var(--font-size-large);
     transition: all 0.6s ease-in-out;
 }
 header h1 a {
@@ -49,12 +47,11 @@ header .nav a {
     display: flex;
     transition: all 0.4s;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: var(--font-size-medium);
 
     padding: 0.8rem;
 
     color: var(--font-color);
-    border-bottom: 1px solid var(--shadows-color);
 }
 header .nav a:hover {
     scale: 1.1;
@@ -70,7 +67,7 @@ header .nav a:active {
 header .menu-toggle {
     display: none;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: var(--font-size-large);
     font-weight: bold;
     transition: all 0.4s;
 
