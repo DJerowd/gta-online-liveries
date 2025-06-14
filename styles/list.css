@@ -1,11 +1,11 @@
-#list {
+#newVehiclesList, #militaryList, #allVehiclesList {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
     width: 100vw;
-    gap: 1em;
+    gap: 1rem;
 }
 .list {
     display: flex;
@@ -23,24 +23,25 @@
 .list table {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     
-    margin: 0 1em;
+    margin: 0 1rem;
     border-radius: 4px;
     min-width: 20vw;
 
     background-color: var(--background-color-2);
 }
 .list h3 {
-    font-size: 1.2em;
+    font-size: 1.4rem;
     font-family: var(--font-family-2);
-    line-height: 2em;
+    line-height: 2rem;
 }
 .list tr {
     display: grid;
-    grid-template-columns: 2em 2em calc(100% - 4em);
+    grid-template-columns: 2rem 2rem calc(100% - 4rem);
     font-family: var(--font-family-1);
     
-    padding: 0 0.4em;
+    padding: 0 0.4rem;
 
     border-top: 1px solid var(--shadows-color);
 }
@@ -54,12 +55,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.0em;
+    font-size: 1.2rem;
 
     width: 100%;
 }
 .list #index {
-    font-size: 0.8em;
+    font-size: 1.0rem;
 
     color: var(--font-color-2);
     text-shadow: 0 1px 2px var(--primary-color);
@@ -70,5 +71,5 @@
     text-overflow: ellipsis;
     justify-content: start;
     
-    padding: 0 0 0 1em;
+    padding: 0 0 0 1rem;
 }

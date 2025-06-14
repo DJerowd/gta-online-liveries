@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +9,7 @@
 
 :root {
     /* VARIÁVEIS DE PALETA DE CORES */
-    --header-color: #0F0F0F;
+    --header-color: #74B0C8;
     --footer-color: #0F0F0F;
 
     --primary-color: #FF00CC;
@@ -26,9 +27,10 @@
     /* VARIÁVEIS DE TIPOS DE FONTES */
     --font-family-1: 'Anton', Georgia, serif;
     --font-family-2: 'Lobster', monospace, serif;
+    --font-family-3: 'Noto Sans', monospace, serif;
 
     /* VARIÁVEIS DE FORMATAÇÂO DO HEADER */
-    --header-height: 64px;
+    --header-height: 96px;
 }
 
 body {

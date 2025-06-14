@@ -18,26 +18,26 @@
             <a href="index.html" title="GTA Liveries - By DJ"> GTA Liveries </a>
         </h1>
         <nav class="nav" id="nav">
-            <a href="index.html" title="Home">Home</a>
+            <a href="index.html" title="Início">Início</a>
             <a href="military.html" title="Militares">Militares</a>
             <a href="others.html" title="Outros">Outros</a>
             <a href="about.html" title="Sobre">Sobre</a>
         </nav>
-        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+        <a class="menu-toggle" id="menuToggle">&#9776;</a>
     </header>
 
     <main class="content">
         <article>
             <h2>Veículos Armados:</h2>
-            <p>Grupo AB: APC, Akula, Antiaéreo, Antitumulto, Ardent, Avenger, Barrage, Chernobog, Dune de Combate, Insurgent, Khanjali, Meia Lagarta, Nightshark, Oppressor MK1, Revolter, Technical Custom, Tampa Armado, Thruster.</p>
-            <p>Grupo A: Menacer, Mule Custom, Oppressor MK2, Patriot, Patriot Stretch, Pounder Custom, Speedo Custom, Vagrant, Zhaba.</p>
-            <p>Grupo B: Comet Safari, Molotok.</p>
+            <p><b>Grupo AB:</b> APC, Akula, Antiaéreo, Antitumulto, Ardent, Avenger, Barrage, Chernobog, Dune de Combate, Insurgent, Khanjali, Meia Lagarta, Nightshark, Oppressor MK1, Revolter, Technical Custom, Tampa Armado, Thruster.</p>
+            <p><b>Grupo A:</b> Menacer, Mule Custom, Oppressor MK2, Patriot, Patriot Stretch, Pounder Custom, Speedo Custom, Vagrant, Zhaba.</p>
+            <p><b>Grupo B:</b> Comet Safari, Molotok.</p>
             <p>* Para merge utilize o veículo <a href="https://gta.fandom.com/wiki/Vagrant" target="_blank" >Vagrant</a> para passar as estampas *</p>
             <p>* O valor de ID se refere ao número da estampa que deve ser colocada no <a href="https://gta.fandom.com/wiki/Vagrant" target="_blank" >Vagrant</a> *</p>
         </article>
 
         <section>
-            <div id="list"></div>
+            <div id="militaryList"></div>
         </section>
     </main>
 
@@ -46,107 +46,7 @@
         <a>© 2025 feito por DJerowd1413.</a>
     </footer>
 
-    <script>
-        // FUNCIONALIDADE DO MENU PARA DISPOSITIVOS MOVEIS
-        document.getElementById("menuToggle").addEventListener("click", function () {
-            document.getElementById("nav").classList.toggle("show");
-        });
-
-        // DADOS DOS VEÍCULOS
-        const vehicleData = {
-            "Grupo AB": {
-                "Liveries": [
-                    { "id": 22, "name": "Crânios" },
-                    { "id": 23, "name": "Ícones Amarelos" },
-                    { "id": 24, "name": "Bully" },
-                    { "id": 25, "name": "Rockstar" },
-                    { "id": 26, "name": "Tartan Vermelha" },
-                    { "id": 27, "name": "Galáxia" },
-                    { "id": 28, "name": "Árvore de Natal" },
-                    { "id": 29, "name": "Bengala Doce" },
-                    { "id": 30, "name": "Floco de neve" },
-                    { "id": 31, "name": "Visco" },
-                    { "id": 32, "name": "Camuflagem Rosa e Verde" },
-                    { "id": 33, "name": "Camuflagem Azul e Amarelo" },
-                    { "id": 34, "name": "Camuflagem Amarelo e Laranja" },
-                    { "id": 35, "name": "Camuflagem Verde e Azul" },
-                    { "id": 36, "name": "Camuflagem de Caça" },
-                    { "id": 37, "name": "Tartan Azul" },
-                    { "id": 38, "name": "Moeda Santo Capra" },
-                    { "id": 39, "name": "Sessanta Nove Dourado" },
-                    { "id": 40, "name": "Sessanta Nove Colorido" },
-                    { "id": 41, "name": "Dollar" }
-                ]
-            },
-            "Grupo A": {
-                "Liveries": [
-                    { "id": 22, "name": "Camuflagem Rosa e Verde" },
-                    { "id": 23, "name": "Camuflagem Azul e Amarelo" },
-                    { "id": 24, "name": "Camuflagem Amarelo e Laranja" },
-                    { "id": 25, "name": "Camuflagem Verde e Azul" },
-                    { "id": 26, "name": "Camuflagem de Caça" },
-                    { "id": 27, "name": "Tartan Azul" },
-                    { "id": 28, "name": "Moeda Santo Capra" },
-                    { "id": 29, "name": "Sessanta Nove Dourado" },
-                    { "id": 30, "name": "Sessanta Nove Colorido" },
-                    { "id": 31, "name": "Dollar" }
-                ]
-            },
-            "Grupo B ": {
-                "Liveries": [
-                    { "id": 22, "name": "Crânios" },
-                    { "id": 23, "name": "Ícones Amarelos" },
-                    { "id": 24, "name": "Bully" },
-                    { "id": 25, "name": "Rockstar" },
-                    { "id": 26, "name": "Tartan Vermelha" },
-                    { "id": 27, "name": "Galáxia" },
-                    { "id": 28, "name": "Árvore de Natal" },
-                    { "id": 29, "name": "Bengala Doce" },
-                    { "id": 30, "name": "Floco de neve" },
-                    { "id": 31, "name": "Visco" }
-                ]
-            }
-        };
-
-        // CRIAR HTML DE VEÍCULOS
-        function createVehicleHTML(vehicleName, liveries) {
-            return `
-                <div class="list">
-                    <div>
-                    <h3>${vehicleName}</h3>
-                    <table>
-                        <tr>
-                            <td id="index"></td>
-                            <td id="id">ID</td>
-                            <td id="livery">NOME DA ESTAMPA</td>
-                        </tr>
-
-                        ${liveries.map((livery, index) => `
-                        <tr>
-                            <td id="index">${index + 1}</td>
-                            <td id="id">${livery.id}</td>
-                            <td id="livery">${livery.name}</td>
-                        </tr>
-                        `).join('')}
-                    </table>
-                    </div>
-                </div>
-            `;
-        }
-
-        // RENDERIZAR VEÍCULOS
-        function renderVehicles() {
-            const vehicleList = document.getElementById('list');
-            
-            const vehiclesHTML = Object.entries(vehicleData).map(([vehicleName, data]) => {
-                return createVehicleHTML(vehicleName, data.Liveries);
-            }).join('');
-
-            vehicleList.innerHTML = vehiclesHTML;
-        }
-
-        // RENDERIZAR QUANDO A PÁGINA CARREGAR
-        window.onload = renderVehicles;
-    </script>
+    <script src="scripts/mobileMenu.js"></script>
+    <script src="scripts/militaryVehicles.js"></script>
 </body>
 </html>
