@@ -12,19 +12,9 @@
         <link rel="stylesheet" type="text/css" href="styles/responsive.css">
     </head>
 <body class="container">
+    
     <!-- HEADER -->
-    <header>
-        <h1>
-            <a href="index.html" title="GTA Liveries - By DJ"> GTA Liveries </a>
-        </h1>
-        <nav class="nav" id="nav">
-            <a href="index.html" title="Início">Início</a>
-            <a href="military.html" title="Militares">Militares</a>
-            <a href="others.html" title="Outros">Outros</a>
-            <a href="about.html" title="Sobre">Sobre</a>
-        </nav>
-        <a class="menu-toggle" id="menuToggle">&#9776;</a>
-    </header>
+    <div id="header"></div>
 
     <main class="content">
         <article>
@@ -39,11 +29,11 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
-        <a>© 2025 feito por DJerowd1413.</a>
-    </footer>
+    <div id="footer"></div>
 
     <script src="scripts/mobileMenu.js"></script>
     <script src="scripts/allVehicles.js"></script>
+    <script src="scripts/includeComponents.js"></script>
+    <script>renderHeaderAndFooter();</script>
 </body>
 </html>

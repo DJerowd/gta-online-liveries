@@ -12,7 +12,7 @@
   
   /* VARIÁVEIS DE PALETA DE CORES */
   --header-color: light-dark(#E6E7EB, #0F0F0F);
-  --footer-color: light-dark(#E6E7EB, #0F0F0F);
+  --footer-color: light-dark(#E6E7EB, #575555);
 
   --primary-color: light-dark(#FCAF17, #FF00CC);
   --secondary-color: light-dark(#00AAEE, #00FFFF);
