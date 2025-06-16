@@ -1,6 +1,10 @@
 /* FOOTER */
 footer {
     display: flex;
+    width: 100%;
+}
+footer div {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -9,17 +13,18 @@ footer {
     user-select: none;
 
     width: 100%;
-    padding: 1.0rem 4vw;
-
+    
     color: var(--font-color-2);
     background-color: var(--footer-color);
 }
-footer div {
+footer div div {
     display: flex;
-
+    
+    width: max-content;
+    padding: 1.0rem 4vw;
     gap: 1.0rem;
 }
-footer div a {
+footer div div a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,17 +36,17 @@ footer div a {
     fill: var(--footer-color);
     background-color: var(--font-color-2);
 }
-footer div a:hover {
+footer div div a:hover {
     scale: 1.1;
     fill: var(--font-color-2);
     background-color: var(--secondary-color);
     box-shadow: 0 0 4px currentColor;
 }
-footer div a:active {
+footer div div a:active {
     scale: 0.9;
     background-color: var(--primary-color);
 }
-footer div a svg {
+footer div div a svg {
     width: var(--font-size-medium);
     height: var(--font-size-medium);
 }

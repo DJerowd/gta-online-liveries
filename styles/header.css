@@ -1,7 +1,6 @@
 /* HEADER */
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
     position: fixed;
@@ -13,10 +12,15 @@ header {
     width: 100%;
     height: var(--header-height);
     padding: 0 4vw;
-
+    
     background: var(--font-color) url(../assets/header-background.jpg) no-repeat center top;
     background-size: cover;
     box-shadow: 0 1px 2px var(--box-shadow-color);
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* TITULO */
