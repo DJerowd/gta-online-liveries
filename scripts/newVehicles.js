@@ -1,57 +1,48 @@
 // DADOS DOS VEÍCULOS
 const newVehiclesData = {
-    "Banshee GTS": {
+    "Everon RS": {
         "Liveries": [
-            { "id": 5, "name": "Bravado Stripes" }
+            { "id": 1, "name": " " }
         ]
     },
-    "Coquette D5": {
+    "Hardy": {
         "Liveries": [
-            { "id": 7, "name": "Flames" }
+            { "id": 1, "name": " " }
         ]
     },
-    "DH-7 Iron Mule": {
+    "LSCM Cheetah Classique": {
         "Liveries": [
-            { "id": 2, "name": "Merryweather Security" }
+            { "id": 1, "name": " " }
         ]
     },
-    "Terrorbyte": {
+    "Minimus": {
         "Liveries": [
-            { "id": 2, "name": "FIB" }
+            { "id": 1, "name": " " }
         ]
     },
-    "Titan 250 D": {
+    "Rapid GT X": {
         "Liveries": [
-            { "id": 7, "name": "Pisswasser" },
-            { "id": 11, "name": "Eberhard" }
+            { "id": 1, "name": " " }
         ]
     },
-    "Tropos Rallye": {
+    "Sentinel GTS": {
         "Liveries": [
-            { "id": 4, "name": "Original Engines" },
-            { "id": 5, "name": "Tech Punk Gasta" },
-            { "id": 6, "name": "Tamarro Gasta" },
-            { "id": 7, "name": "Tricolore Racing" },
-            { "id": 8, "name": "Tamarro" },
-            { "id": 9, "name": "Tricolore Racing Gasta" },
-            { "id": 10, "name": "Arcana" },
-            { "id": 11, "name": "Arcana Gasta" },
-            { "id": 12, "name": "Tech Punk" },
-            { "id": 13, "name": "Shatter" }
+            { "id": 1, "name": " " }
         ]
     },
-    "Growler": {
+    "Suzume": {
         "Liveries": [
-            { "id": 17, "name": "Xero Racing" },
-            { "id": 18, "name": "Faded Bastion Racing" },
-            { "id": 19, "name": "Modular Racing" },
-            { "id": 20, "name": "Hardcore" },
-            { "id": 21, "name": "Hardcore Half n' Half" },
-            { "id": 22, "name": "Bastion Racing" },
-            { "id": 23, "name": "Chromophonic Racing" },
-            { "id": 24, "name": "Tamarro Racing" },
-            { "id": 25, "name": "Redwood Racing" },
-            { "id": 26, "name": "Globe Oil Racing" }
+            { "id": 1, "name": " " }
+        ]
+    },
+    "Tampa GT": {
+        "Liveries": [
+            { "id": 1, "name": " " }
+        ]
+    },
+    "Woodlander": {
+        "Liveries": [
+            { "id": 1, "name": " " }
         ]
     }
 };
