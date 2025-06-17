@@ -2,47 +2,45 @@
 const newVehiclesData = {
     "Everon RS": {
         "Liveries": [
-            { "id": 1, "name": " " }
+            { "id": 11, "name": "Karin" }
         ]
     },
     "Hardy": {
         "Liveries": [
-            { "id": 1, "name": " " }
-        ]
-    },
-    "LSCM Cheetah Classique": {
-        "Liveries": [
-            { "id": 1, "name": " " }
+            { "id": 10, "name": "Stance Andreas" }
         ]
     },
     "Minimus": {
         "Liveries": [
-            { "id": 1, "name": " " }
+            { "id": 11, "name": "Rust" }
         ]
     },
     "Rapid GT X": {
         "Liveries": [
-            { "id": 1, "name": " " }
+            { "id": 8, "name": "Dewbauchee" }
         ]
     },
     "Sentinel GTS": {
         "Liveries": [
-            { "id": 1, "name": " " }
+            { "id": 7, "name": "Sanded" },
+            { "id": 12, "name": "QuickiePharm" },
+            { "id": 13, "name": "GTS Red Stripes" }
         ]
     },
     "Suzume": {
         "Liveries": [
-            { "id": 1, "name": " " }
+            { "id": 10, "name": "Cyber" },
+            { "id": 11, "name": "Cyber Graphics" }
         ]
     },
     "Tampa GT": {
         "Liveries": [
-            { "id": 1, "name": " " }
+            { "id": 10, "name": "Los Santos Custom" }
         ]
     },
     "Woodlander": {
         "Liveries": [
-            { "id": 1, "name": " " }
+            { "id": 9, "name": "Karin Performance Monochrome" }
         ]
     }
 };

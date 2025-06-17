@@ -165,6 +165,11 @@ const allVehiclesData = {
             { "id": 13, "name": "Shark Camo" }
         ]
     },
+    "Everon RS": {
+        "Liveries": [
+            { "id": 11, "name": "Karin" }
+        ]
+    },
     "F-160 Raiju": {
         "Liveries": [
             { "id": 13, "name": "Sprunk x eCola" }
@@ -192,6 +197,11 @@ const allVehiclesData = {
             { "id": 24, "name": "Tamarro Racing" },
             { "id": 25, "name": "Redwood Racing" },
             { "id": 26, "name": "Globe Oil Racing" }
+        ]
+    },
+    "Hardy": {
+        "Liveries": [
+            { "id": 10, "name": "Stance Andreas" }
         ]
     },
     "Hermes": {
@@ -244,6 +254,11 @@ const allVehiclesData = {
             { "id": 11, "name": "Dolla Dolla" }
         ]
     },
+    "Minimus": {
+        "Liveries": [
+            { "id": 11, "name": "Rust" }
+        ]
+    },
     "MonstroCiti": {
         "Liveries": [
             { "id": 8, "name": "Chepalle Motorsport" },
@@ -290,6 +305,18 @@ const allVehiclesData = {
             { "id": 6, "name": "Pisswasser Racing" }
         ]
     },
+    "Rapid GT X": {
+        "Liveries": [
+            { "id": 8, "name": "Dewbauchee" }
+        ]
+    },
+    "Sentinel GTS": {
+        "Liveries": [
+            { "id": 7, "name": "Sanded" },
+            { "id": 12, "name": "QuickiePharm" },
+            { "id": 13, "name": "GTS Red Stripes" }
+        ]
+    },
     "Sultan RS Classic": {
         "Liveries": [
             { "id": 12, "name": "Tribal Throwback, Purple" },
@@ -302,6 +329,12 @@ const allVehiclesData = {
     "Surfer Custom": {
         "Liveries": [
             { "id": 14, "name": "Peace And Love" }
+        ]
+    },
+    "Suzume": {
+        "Liveries": [
+            { "id": 10, "name": "Cyber" },
+            { "id": 11, "name": "Cyber Graphics" }
         ]
     },
     "S80RR": {
@@ -322,6 +355,11 @@ const allVehiclesData = {
     "Swinger": {
         "Liveries": [
             { "id": 11, "name": "For Queen and Country" }
+        ]
+    },
+    "Tampa GT": {
+        "Liveries": [
+            { "id": 10, "name": "Los Santos Custom" }
         ]
     },
     "Terrorbyte": {
@@ -392,16 +430,6 @@ const allVehiclesData = {
             { "id": 11, "name": "White Thunderbolt Stripe" }
         ]
     },
-    "Yosemite 1500": {
-        "Liveries": [
-            { "id": 11, "name": "Pinstripe Blue" }
-        ]
-    },
-    "Zentorno": {
-        "Liveries": [
-            { "id": 13, "name": "Rockstar Motorsport" }
-        ]
-    },
     "Walton L35": {
         "Liveries": [
             { "id": 11, "name": "Atomic Racing" }
@@ -410,6 +438,21 @@ const allVehiclesData = {
     "Weevil": {
         "Liveries": [
             { "id": 16, "name": "Love" }
+        ]
+    },
+    "Woodlander": {
+        "Liveries": [
+            { "id": 9, "name": "Karin Performance Monochrome" }
+        ]
+    },
+    "Yosemite 1500": {
+        "Liveries": [
+            { "id": 11, "name": "Pinstripe Blue" }
+        ]
+    },
+    "Zentorno": {
+        "Liveries": [
+            { "id": 13, "name": "Rockstar Motorsport" }
         ]
     }
 };
